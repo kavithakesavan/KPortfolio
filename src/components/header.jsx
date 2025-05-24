@@ -1,7 +1,5 @@
 import './header.css';
-import  darkmodeimage from '../assets/dark-theme.png';
-import  lightmodeimage from '../assets/light-theme.png';
-import  darkmodeimagesvg from '../assets/dark-mode.svg';
+
 import  dark from '../assets/dark.png';
 import  light from '../assets/light.png';
 
