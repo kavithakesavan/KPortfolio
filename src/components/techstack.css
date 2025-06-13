@@ -1,0 +1,22 @@
+.techstackcontainer {
+  max-width: 500px;
+  margin-left: 500px;
+  margin-top: 100px;
+
+  justify-content: space-around;
+  display: flex;
+}
+.outerskillitem {
+  transform: none;
+  opacity: 1;
+}
+.innerskillcontainer {
+}
+.outerskillitem :hover {
+  transform: scale(1);
+} /* (150% zoom - Note: if the zoom is too   large, it will go outside of the viewport) */
+
+.skillimage {
+  width: 30%;
+  height: 30%;
+}

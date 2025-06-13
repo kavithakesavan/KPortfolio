@@ -1,0 +1,40 @@
+$gutter: 20px;
+
+.element {
+  //padding: 10px;
+}
+
+.flexContainer {
+  display: flex;
+  flex-flow: row;
+
+  max-width: 500px;
+  margin-left: 300px;
+  margin-top: 100px;
+
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstitem {
+  padding-right: 20%;
+}
+
+.firstitem-1 {
+  font-size: large;
+}
+
+.firstitem-2 {
+  font-size: medium;
+}
+
+.profimage {
+  border-radius: 50%;
+  width: 60%;
+}
+
+.typedcursor {
+  background-image: linear-gradient(red, yellow);
+  width: 200px;
+}

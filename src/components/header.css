@@ -1,13 +1,11 @@
-[data-attr="headwrapper"]{
+/* [data-attr="headwrapper"]{
     display : inline-grid;
     grid-template-columns: auto auto;                
     position: absolute;
     top:0px; 
     left:0px;
     width:100%;
-    /* column-gap: 20px; */
-    /* background-color:black;  
-    color :white; */
+
     
 }   
 .shortname {    
@@ -25,10 +23,11 @@
   width: 100%;
   padding: 20px;
 }
-
+*/
 .themeimage {
-  display: inline-block;
-  padding: 20px;
-cursor: pointer;
+  cursor: pointer;
 }
-
+.stickyheader {
+  left: 0px;
+  top: 0px;
+}
