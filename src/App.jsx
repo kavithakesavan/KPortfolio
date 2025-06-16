@@ -136,7 +136,7 @@ export default function App() {
             </li>
             <li class="hover:text-cyan-400 text-xl font-semibold duration-500 cursor-pointer">
               <a
-                href="https://1drv.ms/b/c/c9649fe8d2d63852/ER_YCBf3USJCj3rf1sD8WmsBtCYytFseTYjka0wVs-mtlA?e=tfaCL4"
+                href="https://onedrive.live.com/?cid=C9649FE8D2D63852&id=C9649FE8D2D63852%21s1708d81f51f742228f7adfd6c0fc5a6b&parId=root&o=OneUp"
                 target="_blank"
               >
                 Resume
