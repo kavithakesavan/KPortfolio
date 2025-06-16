@@ -23,7 +23,7 @@ export default function Responsiblities() {
           <br />
           Calsoft Labs(An Alten Company) ------------------ 2011-2013
         </div> */}
-        <div class="bg-gray-950 flex flex-col gap-4 py-10 px-5 md:px-7 rounded-lg border border-lime-800 hover:border-lime-600 duration-500 font-khula leading-relaxed text-lg font-semibold text-gray-300">
+        <div class="flex flex-col gap-4 py-10 px-5 md:px-7 rounded-lg border border-lime-800 hover:border-lime-600 duration-500 font-khula leading-relaxed text-lg font-semibold ">
           {listItems}
         </div>
       </div>

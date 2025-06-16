@@ -43,7 +43,7 @@ export default function Contact() {
         <form
           ref={form}
           onSubmit={sendEmail}
-          class="flex flex-col gap-6 bg-gray-950 p-5 rounded-lg w-full md:w-2/3 lg:w-1/2"
+          class="flex flex-col gap-6  p-5 rounded-lg w-full md:w-2/3 lg:w-1/2"
         >
           <div class="text-amber-600 font-semibold ml-2 text-xl">Email Me</div>
           <input
