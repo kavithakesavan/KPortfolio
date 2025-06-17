@@ -60,7 +60,7 @@ export default function App() {
   // }
   const themechange = () => {
     if (modeClass == "bg-gray-800 text-white/60") {
-      setmodeclass("bg-white-800 text-gray/60");
+      setmodeclass("bg-white-800 text-black/60");
     } else {
       setmodeclass("bg-gray-800 text-white/60");
     }
@@ -94,13 +94,13 @@ export default function App() {
       class={
         theme == "dark"
           ? "bg-gray-950 text-white/60"
-          : "bg-white-500 text-gray/60"
+          : "bg-white-500 text-black/60"
       }
     >
+      {/* <div class="sticky top-0 bg-red-500 p-6"> */}
       <div
-        class={`sticky top-0 text-cyan-600 z-100  p-6 ${
-          theme == "dark" ? "bg-gray-950" : "bg-white-500"
-        }`}
+        class={`sticky top-0   p-6 
+          ${theme == "dark" ? "bg-gray-950" : " bg-white"}`}
       >
         <div class="overflow-hidden max-w-screen flex justify-between items-center p-4 px-8 lg:px-24">
           <div className="flex items-center space-x-2 py-4 md:py-1 drop-shadow-lg bg-gradient-to-r from-[#fa3205] to-[#5301c5] bg-clip-text text-transparent">

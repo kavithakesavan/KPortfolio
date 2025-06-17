@@ -77,8 +77,8 @@ export default function techstack() {
       </div>
       <div class="flex flex-wrap justify-between mt-8 text-sm font-medium text-black md:text-lg ">
         {skills.map((skill) => (
-          <div class="items-center px-4 py-2 mx-2 mt-6 rounded-lg cursor-pointer md:flex w-32 bg-gray-50 md:m-4 hover:scale-125 md:w-48">
-            <img className="w-12 p-3" src={skill.skillimage} />
+          <div class="items-center px-4 py-2 mx-2 mt-6 rounded-lg cursor-pointer md:flex w-32 bg-gray-50 border-1 md:m-4 hover:scale-125 md:w-48">
+            <img className="w-13   p-3" src={skill.skillimage} />
 
             <h4 class="ml-4 text-md">{skill.skillname}</h4>
           </div>

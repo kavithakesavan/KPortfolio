@@ -68,7 +68,7 @@ export default function AboutMe() {
 
     <div
       name="about"
-      class=" text-gray-100 text-xl p-8 md:px-24 md:py-10 flex flex-col lg:flex-row-reverse gap-6 justify-center items-center"
+      class=" text-xl p-8 md:px-24 md:py-10 flex flex-col lg:flex-row-reverse gap-6 justify-center items-center"
     >
       <div class="flex-1 flex justify-center items-center">
         <img
@@ -86,14 +86,14 @@ export default function AboutMe() {
           <div class="text-xl font-semibold mt-2">
             <span class="font-bold mr-2">a</span>
             <span
-              class="text-xl text-gray-950 p-1 px-4 rounded bg-gradient-to-l from-amber-600 to-lime-600"
+              class="text-xl p-1 px-4 rounded bg-gradient-to-l from-amber-600 to-lime-600"
               data-testid="react-typed"
             >
               <span ref={el} />{" "}
             </span>
           </div>
         </div>
-        <div class="font-khula leading-relaxed text-lg font-semibold text-gray-300">
+        <div class="font-khula leading-relaxed text-lg font-semibold">
           {" "}
           As an experienced Software Developer, I specialize in building
           scalable, user-friendly applications using technologies like MERN,

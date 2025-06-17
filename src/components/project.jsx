@@ -113,7 +113,7 @@ export default function Project() {
             return (
               <div class="rounded-lg border border-cyan-800 duration-500 shadow-md max-w-100">
                 <div class="grid  grid-cols-2">
-                  <span class="text-2xl font-bold text-amber-200 pt-9 pl-3 place-self-start">
+                  <span class="text-2xl font-bold text-amber-500 pt-9 pl-3 place-self-start">
                     {project.name}
                   </span>
                   <img

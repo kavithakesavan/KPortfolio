@@ -23,7 +23,7 @@ export default function Contact() {
   };
 
   return (
-    <div name="contact" class=" text-gray-200 py-20 px-2 md:px-8">
+    <div name="contact" class="  py-20 px-2 md:px-8">
       <div class="flex flex-col gap-3 justify-center items-center my-3">
         <div class="text-center text-amber-600 text-4xl font-bold">
           Contact Me
