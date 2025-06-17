@@ -33,13 +33,14 @@ export default function App() {
   const refaboutme = useRef(null);
   const reftechstack = useRef(null);
   const refprojects = useRef(null);
-  const refcontact = useRef(null);
+  const myHref = useRef(null);
 
   const handlescroll = (event) => {
-    console.log(event);
+    //myHref?.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    // console.log(event);
     document
       .getElementById(event.target.className)
-      .scrollIntoView({ behavior: "smooth", block: "end" });
+      .scrollIntoView({ behavior: "smooth" });
   };
   // const themeToggle= ()=>{
   //   console.log("theme",theme);
@@ -196,17 +197,17 @@ export default function App() {
         {/* <span ref="refaboutme"> */}
         <AboutMe />
         {/* </span> */}
-        <section id="techstack">
+        <section id="techstack" className="scroll-mt-30">
           <TechStack />
         </section>
-        <section id="highlights">
+        <section id="highlights" className="scroll-mt-30">
           <Responsiblities />
         </section>
         {/* <WorkHistory ref="refworkhistory" /> */}
-        <section id="projects">
+        <section id="projects" className="scroll-mt-35">
           <Project />
         </section>
-        <section id="contact">
+        <section id="contact" className="scroll-mt-35">
           <Contact />
         </section>
       </div>
