@@ -39,7 +39,7 @@ export default function App() {
     console.log(event);
     document
       .getElementById(event.target.className)
-      .scrollIntoView({ behavior: "smooth" });
+      .scrollIntoView({ behavior: "smooth", block: "end" });
   };
   // const themeToggle= ()=>{
   //   console.log("theme",theme);
