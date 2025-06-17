@@ -131,7 +131,7 @@ export default function App() {
             </li>
             <li class="hover:text-cyan-400 text-xl font-semibold duration-500 cursor-pointer">
               <a onClick={handlescroll} className="contact">
-                Contact
+                Contact Me
               </a>
             </li>
             <li class="hover:text-cyan-400 text-xl font-semibold duration-500 cursor-pointer">
