@@ -95,13 +95,12 @@ export default function AboutMe() {
         </div>
         <div class="font-khula leading-relaxed text-lg font-semibold">
           {" "}
-          As an experienced Software Developer, I specialize in building
-          scalable, user-friendly applications using technologies like MERN,
-          Next.js, Flutter, Go, AWS &amp; much more. I have hands-on 2 years of
-          experience developing and deploying full-stack projects and a strong
-          interest in data structures and algorithms to optimize performance and
-          security. I continuously enhance my skills and stay eager to explore
-          new technologies and deliver impactful solutions.
+          Personable Lead Software Developer with 12+ years of experience
+          accustomed to heading up successful development teams through agile
+          direction and careful delegation. Willing to direct large-scale teams
+          and work hands-on to complete extremely difficult projects. Brings
+          both cutting-edge programming expertise and exceptional interpersonal
+          skills to leadership roles.
         </div>
       </div>
     </div>
