@@ -137,7 +137,7 @@ export default function App() {
             </li>
             <li class="hover:text-cyan-400 text-xl font-semibold duration-500 cursor-pointer">
               <a
-                href="https://1drv.ms/b/c/c9649fe8d2d63852/Eda7hmG-56hOqwRzsAMZh40Bd9vydevmvzVAVxYFlKQK1g?e=J0nnvq"
+                href="https://1drv.ms/b/c/c9649fe8d2d63852/ESxUIIk5QoZErp12l3wGcaMBVXto7xFbgUQMILIYTkGR5w?e=9idGIJ"
                 target="_blank"
               >
                 Resume
